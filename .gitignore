@@ -3,3 +3,5 @@
 ################################################################################
 
 /DotNet5.Tools/DotNet5.Tools.UI/bin/Debug/net5.0
+/DotNet5.Tools/DotNet5.Tools.UI/obj
+/DotNet5.Tools/.vs/DotNet5.Tools
