@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DotNet5.Tools.Domain\DotNet5.Tools.Domain.csproj" />
+    <ProjectReference Include="..\DotNet5.Tools.Services\DotNet5.Tools.Services.csproj" />
+  </ItemGroup>
+
 </Project>

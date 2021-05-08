@@ -5,3 +5,7 @@
 /DotNet5.Tools/DotNet5.Tools.UI/bin/Debug/net5.0
 /DotNet5.Tools/DotNet5.Tools.UI/obj
 /DotNet5.Tools/.vs/DotNet5.Tools
+/DotNet5.Tools/DotNet5.Tools.Domain/obj
+/DotNet5.Tools/DotNet5.Tools.Domain/bin/Debug/netstandard2.0
+/DotNet5.Tools/DotNet5.Tools.Services/bin/Debug/netstandard2.0
+/DotNet5.Tools/DotNet5.Tools.Services/obj

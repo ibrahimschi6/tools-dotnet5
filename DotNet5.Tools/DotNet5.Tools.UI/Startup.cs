@@ -1,3 +1,4 @@
+using DotNet5.Tools.Domain.Model;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,7 +23,11 @@ namespace DotNet5.Tools.UI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<EmailConfiguration>(Configuration.GetSection("EmailConfiguration"));
+            
             services.AddControllersWithViews();
+
+            services.AddOptions();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

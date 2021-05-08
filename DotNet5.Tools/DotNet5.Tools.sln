@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet5.Tools.UI", "DotNet5.Tools.UI\DotNet5.Tools.UI.csproj", "{19EFF1DE-0BC0-4BF0-9FF9-826D7C3A9FA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet5.Tools.Services", "DotNet5.Tools.Services\DotNet5.Tools.Services.csproj", "{40DA9DD6-7FF6-4A1C-AC1B-00355E408455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet5.Tools.Domain", "DotNet5.Tools.Domain\DotNet5.Tools.Domain.csproj", "{4A25BB80-4657-489F-AC83-2ABBDD625466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{19EFF1DE-0BC0-4BF0-9FF9-826D7C3A9FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19EFF1DE-0BC0-4BF0-9FF9-826D7C3A9FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19EFF1DE-0BC0-4BF0-9FF9-826D7C3A9FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DA9DD6-7FF6-4A1C-AC1B-00355E408455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DA9DD6-7FF6-4A1C-AC1B-00355E408455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DA9DD6-7FF6-4A1C-AC1B-00355E408455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DA9DD6-7FF6-4A1C-AC1B-00355E408455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A25BB80-4657-489F-AC83-2ABBDD625466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A25BB80-4657-489F-AC83-2ABBDD625466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A25BB80-4657-489F-AC83-2ABBDD625466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A25BB80-4657-489F-AC83-2ABBDD625466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
